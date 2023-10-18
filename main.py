@@ -24,6 +24,8 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
         
     """
     # TODO: Implement sum_of_squares_of_even prac
+    sum_of_squares = sum([num ** 2 for num in even_int_list])
+    return sum_of_squares
     pass
 # Main function
 def main():
